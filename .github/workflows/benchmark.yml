@@ -18,8 +18,6 @@ jobs:
           distribution: "temurin"
           java-version: "21"
       - uses: gradle/actions/setup-gradle@d156388eb19639ec20ade50009f3d199ce1e2808 # v4.1.0
-        with:
-          cache-disabled: true
       - uses: MathieuSoysal/replace-string-in-file@v1.1.0
         with:
           file: ~/.gradle/init.gradle
