@@ -48,7 +48,7 @@ jobs:
 
   github-local-cache:
     name: Github with Local Cache
-    runs-on: ubuntu-24.04
+    runs-on: monkci-ubuntu-24.04-4
     defaults:
       run:
         working-directory: upstream
