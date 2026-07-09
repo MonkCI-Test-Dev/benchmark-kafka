@@ -5,7 +5,7 @@ on:
 
 jobs:
   inspect:
-    runs-on: monkci-ubuntu-24.04-4
+    runs-on: monkci-ubuntu-latest
 
     steps:
       - name: debug rust/env
